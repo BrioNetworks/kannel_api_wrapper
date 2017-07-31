@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "kannel.host",
+      "type": "java.lang.String",
+      "description": "Description for kannel.host."
+    }
+  ]
+}

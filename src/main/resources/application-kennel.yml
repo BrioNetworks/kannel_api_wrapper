@@ -1,0 +1,19 @@
+kannel:
+  admin:
+    schema: http
+    host: 10.1.255.254
+    port: 13000
+    login: root
+    password: qwsxza
+  smsbox:
+    schema: http
+    host: 10.1.255.254
+    path: /cgi-bin/sendsms
+    port: 13013
+    login: root
+    password: qwsxza
+    from: 79990951332
+  dlr:
+    host: 10.1.255.254
+    port: 12999
+    path: /sms/dlr
