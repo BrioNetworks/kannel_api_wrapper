@@ -9,7 +9,7 @@ import java.lang.annotation.*
 @Target([ElementType.METHOD, ElementType.FIELD])
 @Retention(RetentionPolicy.RUNTIME)
 @interface Phone {
-    String message() default "Invalid format, valid format is ^7\\\\[0-9\\\\]\\\\{10\\\\}\$"
+    String message() default "Invalid format, valid format is ^7\\[0-9\\]\\{10\\}\$"
 
     Class<?>[] groups() default []
 
