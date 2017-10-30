@@ -12,6 +12,7 @@ class Sms {
     LocalDateTime created
     LocalDateTime updated
     String receiver
+    @Size(max = 1024)
     String text
     @Enumerated(EnumType.STRING)
     Status status
