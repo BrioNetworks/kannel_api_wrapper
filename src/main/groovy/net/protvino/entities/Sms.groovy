@@ -2,6 +2,7 @@ package net.protvino.entities
 
 import javax.persistence.*
 import java.time.LocalDateTime
+import javax.validation.constraints.*;
 
 @Entity
 class Sms {
